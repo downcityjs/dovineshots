@@ -10,6 +10,7 @@ app.configure(function() {
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true})); 
 });
 
-app.listen(8000, function() {
-  console.log('dovineshots listening on port 8000');
+var port = process.env.PORT || 8000;
+app.listen(port, function() {
+  console.log('dovineshots listening on port ' + port);
 });
