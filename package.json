@@ -21,5 +21,8 @@
     "Libs"
   ],
   "author": "Andrew J. Stone, Chris Meiklejohn, Reid Draper, Simon Hojperg, Spiros Eliopoulos",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "*"
+  }
 }
