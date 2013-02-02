@@ -11,8 +11,7 @@ body {
 }
 
 h1 { 
-  color: #000;
-  color: #bad455;
+  color: #00a87a;
   font-size: 60px;
 }
 
@@ -25,7 +24,12 @@ h1, h2 {
 
 .cf:after { clear:both; content:"."; display: block; height:0; visibility: hidden; line-height:0; font-size:0; }
 
-#application {
+#app {
   width: 1000px;
   margin: auto;
+}
+
+#main-header {
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
 }
