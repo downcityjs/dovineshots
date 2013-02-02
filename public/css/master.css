@@ -34,8 +34,15 @@ h1, h2 {
   border-bottom: 2px solid #ddd;
 }
 #main-header h1,
-#main-header .do-it {
+#main-header .do-it,
+#main-header .logo {
   float: left;
+}
+#main-header .logo {
+  border-radius: 5px;
+  margin-right: 20px;
+  border: 3px solid #00a87a;
+  opacity: 0.9;
 }
 
 #main-header .do-it {
