@@ -1,0 +1,31 @@
+html, body { 
+  background: #f5f6f6;
+} 
+
+body { 
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0; 
+  padding: 0; 
+  font-size: 18px;
+  color: #777;
+}
+
+h1 { 
+  color: #000;
+  color: #bad455;
+  font-size: 60px;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.cf:after { clear:both; content:"."; display: block; height:0; visibility: hidden; line-height:0; font-size:0; }
+
+#application {
+  width: 1000px;
+  margin: auto;
+}
