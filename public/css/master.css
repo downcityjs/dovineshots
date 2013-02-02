@@ -33,3 +33,76 @@ h1, h2 {
   padding: 20px 0;
   border-bottom: 2px solid #ddd;
 }
+#main-header h1,
+#main-header .do-it {
+  float: left;
+}
+
+#main-header .do-it {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+#main-header .icon-comment:before {
+  position: absolute;
+  font-size: 100px;
+  color: #777;
+  z-index: 70;
+}
+#main-header .icon-comment {
+  position: relative;
+  width: 100px;
+}
+#main-header .icon-quote-left,
+#main-header .icon-quote-right {
+  padding-top: 20px;
+  color: #aaa;
+}
+
+#main-header .icon-quote-left,
+#main-header .icon-comment {
+  float: left;
+}
+#main-header .icon-quote-right {
+  float: right;
+}
+
+#main-header .icon-comment:after {
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 200;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  content: "do it";
+  text-align: center;
+  padding-top: 35px;
+  width: 100px;
+}
+
+main {
+  padding: 40px 0;
+}
+
+.vines {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vines .vine {
+  float: left;
+  width: 235px;
+  height: 235px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.vines .vine:nth-child(4n) {
+  margin-right: 0;
+}
+
+.vines .vine video {
+  width: 235px;
+  height: 235px;
+}
