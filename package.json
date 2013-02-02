@@ -23,6 +23,7 @@
   "author": "Andrew J. Stone, Chris Meiklejohn, Reid Draper, Simon Hojperg, Spiros Eliopoulos",
   "license": "MIT",
   "dependencies": {
-    "express": "~2.5.9"
+    "express": "~2.5.9",
+    "zlib": "~1.0.5"
   }
 }
