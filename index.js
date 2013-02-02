@@ -10,6 +10,10 @@ app.configure(function() {
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true})); 
 });
 
+app.get('/', function(req, res) {
+  res.end('Get Hyphy on Vine Bro');
+});
+
 app.listen(8000, function() {
   console.log('dovineshots listening on port 8000');
 });
