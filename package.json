@@ -1,0 +1,24 @@
+{
+  "name": "dovineshots",
+  "version": "0.0.1",
+  "description": "Booze, Beer, Wheatgrass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "Booze",
+    "Beer",
+    "Wheatgrass",
+    "Vine",
+    "Gif",
+    "Video",
+    "Fun",
+    "Taste",
+    "Hyphy",
+    "Bolth"
+  ],
+  "author": "Andrew J. Stone, Chris Meiklejohn, Reid Draper, Simon Hojperg, Spiros Eliopoulos",
+  "license": "MIT"
+}
