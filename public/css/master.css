@@ -87,6 +87,11 @@ h1, h2 {
   width: 100px;
 }
 
+#main-header .instructions {
+  float: right;
+  padding-top: 25px;
+}
+
 main {
   padding: 40px 0;
 }
