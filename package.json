@@ -20,7 +20,7 @@
     "Bolth",
     "Libs"
   ],
-  "author": "Andrew J. Stone, Chris Meiklejohn, Reid Draper, Simon Hojperg, Spiros Eliopoulos",
+  "author": "Andrew J. Stone, Chris Meiklejohn, Reid Draper, Simon Hojberg, Spiros Eliopoulos",
   "license": "MIT",
   "dependencies": {
     "express": "~2.5.9"
