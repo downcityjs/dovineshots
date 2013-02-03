@@ -7,7 +7,8 @@ function dovineshots() {
         .each(function(d, i) {
           d3.select(this).html(d);
           d3.select(this).select('video')
-              .attr('autoplay', 'autoplay');
+              .attr('controls', true)
+              .attr('autoplay', 'autoplay')
+              .attr('controls', null);;
         });
   });
-}
