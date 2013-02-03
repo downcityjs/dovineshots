@@ -4,6 +4,10 @@ var vine = require('./lib/vine');
 var app = express.createServer();
 
 app.configure(function() {
+  app.use(function(req, res, next) {
+    res.header('Cache-Control', 'public, max-age=120');
+    next();
+  });
   app.use(express.bodyParser());
   app.use(express.cookieParser());
   app.use(app.router);
