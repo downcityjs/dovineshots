@@ -97,8 +97,14 @@ h1, h2 {
   padding-top: 25px;
 }
 
-main {
-  padding: 40px 0;
+p {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+}
+
+main, main > p {
+  padding-bottom: 40px;
 }
 
 .vines {
