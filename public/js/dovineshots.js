@@ -9,6 +9,7 @@ function dovineshots() {
           d3.select(this).select('video')
               .attr('controls', true)
               .attr('autoplay', 'autoplay')
-              .attr('controls', null);;
+              .attr('controls', null);
         });
   });
+}
