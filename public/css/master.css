@@ -92,9 +92,19 @@ h1, h2 {
   width: 100px;
 }
 
+#main-header .social {
+  height: 20px;
+  width: 100px;
+  margin-top: 28px;
+  float: left;
+  margin-left: 20px;
+}
+
 #main-header .instructions {
   float: right;
-  padding-top: 25px;
+  width: 225px;
+  text-align: right;
+  padding-top: 15px;
 }
 
 p {
